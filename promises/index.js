@@ -12,7 +12,7 @@ const getUser = () => {
     })
 }
 
-const getPhone = idUser => {
+const getPhone = idUser => { 
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             return resolve({
